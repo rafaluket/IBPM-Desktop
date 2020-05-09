@@ -1,0 +1,268 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: RobotoMedium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: LatoBold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face{
+    font-family: Lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf.ttf);
+}
+body{
+    font-family: Roboto;
+}
+
+html,
+body {
+	height: 100%;
+}
+header,
+header img{
+	background-size: cover;
+	background-position: top;
+	
+}
+.nav-btn{
+    font-family: RobotoMedium;
+    font-size: 1.4em;
+    background-color: transparent;
+    border: none;
+    height: 52px;
+    margin-left: 2em;
+    border-radius: 50px;
+} 
+.nav-btn-main{
+    font-family: RobotoMedium;
+    font-size: 1.4em;
+    color: white;
+    border-radius: 50px;
+    background-color: #293121;
+    width: 234px;
+    height: 52px;
+    margin-left: 2em;
+}
+.nav-btn:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-btn-main:hover{
+    background-color: rgba(0, 0, 0, );
+}
+.nav-open{
+    margin-top: 4%;
+    padding-left: 25%;
+    position: absolute;
+    z-index: 4;
+}
+#collapse-navbar ul a{
+    color: white;
+}
+.toggle-menu{
+    position: absolute;
+    padding: 0px 1px;
+    padding-top: 0;
+    z-index: 4;
+}
+.toggle-menu a img{
+    margin-right: 0;
+    padding: 15px;
+}
+#em-busca-sonho img{ 
+    float: right;
+    padding-right: 0;   
+}
+.em-busca{
+    margin-left: 20%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.em-busca h2{
+    margin-top: 30%;
+}
+.forte-seja{
+    font-size: 1.3em;
+}
+.subtitle-1{
+    font-size: 4em;
+    color: #1C3419;
+}
+.subtitle-2{
+    color: #1C3419;
+}
+.paragrafo{
+    font-size: 1.5rem;
+    color: #5E5E5E;
+    margin-bottom: 0;
+}
+.grid-Images{
+    padding: 0;
+}
+.grid-Images:hover{
+    padding: 1em;
+}
+.bg-jumbo{
+    background-color: transparent;
+}
+.img-instituto{
+    padding-left: 10%;
+    margin-top: 10%;
+}
+.sub-depoimentos-alunos{
+    background-color: #1C3419;
+    width: 26.6%;
+    height: 7%;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 37%;
+    margin-bottom: 0;
+}
+.sub-depoimentos-alunos h2{
+    font-size: 2.3em;
+    font-family: RobotoBlack;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 10px;
+}
+.depoimentos-alunos p{
+    font-size: 18px;
+    font-family: Roboto;
+    margin-top: 1em;
+}
+.depoimentos-alunos h2{
+    margin-top: 1em;
+}
+.depoimentos-alunos{
+    display: inline-block;
+    background-image: url(../img/Imagem\ 3.png);
+    height:71%;
+}
+.depoimentos-alunos .depoimento{
+    height: 100%;
+    position: relative;
+    font-family: RobotoBlack;
+    color: white;
+    margin: 6em 10em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.depoimentos-alunos .depoimento img{
+    width: 257px;
+    height: 257px;
+    margin-left: 10%;
+}
+.profissional-militar{
+    margin-top: 5%;
+    align-content: center;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.profissional-militar-hover:hover{
+    background-color: rgba(31, 66, 31, 0.1);
+    animation-duration: 100;
+    cursor: pointer;
+}
+.profissional-militar h2{
+    margin-bottom: 5%;
+}
+.bg-green-color-white{
+    color: white;
+    background-color: #1C3419;
+}
+.subtitle-profissional-militar{
+    font-size: 2.5em;
+    margin-top: 3%;
+}
+.ibpm-imprensa{
+    height: 80%;
+    background-size: cover;
+    background-position: top center;
+    background-image: url(../img/LLC_2375.png);
+}
+.imprensa-container{
+    margin-left: 5%;
+    padding-top: 5%;
+}
+.ibpm-imprensa h2{
+    width: 40%;
+    font-family: RobotoBlack;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.ibpm-imprensa h3{
+    font-family: RobotoBold;
+    font-size: 200%;
+    text-align: left;
+}
+.contato{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    margin: 7% auto 7% 10%;
+}
+.contato h2{
+    font-size: 3.6em;
+}
+.contato p{
+    font-size: 100%;
+    padding: 3%;
+}
+.contato form{
+    width: 100%;
+    height: 100%;
+}
+
+.input-contato{
+    display: inline-block;
+    width: 319px;
+    height: 74px;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    margin: 1%;
+}
+.input-contato-msg{
+    width: 1400px;
+    height: 153px;
+}
+footer{
+	background-color: #293121;
+    color: #FFF;
+    padding: 3%;
+    margin-top: 10px;
+    border: #707070;
+    text-align: center;
+}
+
+footer strong{
+    text-align: left;
+}
+.central-atendimentos{
+    padding-left: 24% ;
+    font-size: 2em;
+}
+.footer-2{
+    margin-bottom: 10%;
+}
+
+h2{
+    font-family: RobotoBold;
+}
